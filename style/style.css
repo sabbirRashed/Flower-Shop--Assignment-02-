@@ -99,6 +99,43 @@ header {
     color: #000000;
 }
 
+
+/* banner style */
+.banner{
+    margin-top: 120px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+
+.flex-item{
+    flex: 1;
+}
+
+.banner-content{
+    margin-top: 150px ;
+}
+
+
+.banner-title{
+    font-size: 4rem ;
+    font-weight: 700;
+}
+
+
+.banner-description{
+    font-size: 1.375rem;
+    margin-top: 13px;
+}
+
+
+.banner-image>img{
+    width: 100%;
+    display: block;
+}
+
+
+
 /* Media Query For Mobile devices */
 /* common */
 @media screen and (max-width:768px) {
@@ -109,6 +146,6 @@ header {
 
 
     .navbar{
-        margin-top: 15px;
+        margin: 15px 15px 0 15px;
     }
 }
