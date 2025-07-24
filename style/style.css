@@ -76,8 +76,6 @@ header {
     width: 100%;
 }
 
-.nav-list-items {}
-
 
 .item {
     margin-left: 48px;
@@ -134,7 +132,79 @@ header {
     display: block;
 }
 
+/* main section start */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
+
+/* our plants style */
+.our-plants{
+    margin-top: 120px;
+}
+
+
+.our-plants-title{
+    font-size: 3.125rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.our-plants-description{
+    max-width: 888px;
+    margin: 0 auto;
+    font-size: 1.375rem;
+    text-align: center;
+    margin-top: 16px;
+}
+
+
+.plants-card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+
+.plants-card{
+    margin-top: 50px;
+}
+
+
+.plants-card>img{
+    width: 100%;
+}
+
+
+.plants-name{
+    font-size: 1.375rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.plants-price{
+    font-size: 1.375rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.plants-card-btn{
+    font-weight: 600;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    border: none;
+}
 
 /* Media Query For Mobile devices */
 /* common */
