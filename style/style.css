@@ -24,7 +24,7 @@
 
 /* Common Style */
 body {
-    background: ;
+    background:rgb(247, 245, 245) ;
 }
 
 
@@ -166,10 +166,6 @@ main{
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
     row-gap: 30px;
-}
-
-
-.plants-card{
     margin-top: 50px;
 }
 
@@ -214,7 +210,6 @@ main{
         display: none;
     }
 
-
     .navbar{
         margin: 30px 15px 0 15px;
     }
@@ -241,6 +236,35 @@ main{
 
     .banner-description{
         font-size: 0.875rem;
+    }
+
+    /* our plants section */
+    .our-plants{
+        margin: 65px 15px 0px 15px;
+    }
+
+    .our-plants-title{
+        font-size: 1.5rem;
+    }
+
+    .our-plants-description{
+        max-width: 336px;
+        font-size: 0.875rem;
+    }
+
+    .plants-name{
+        font-size: 1rem;
+    }
+    
+    .plants-price{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .plants-card-container{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 28px;
+        margin-top: 28px;
     }
 
 }
