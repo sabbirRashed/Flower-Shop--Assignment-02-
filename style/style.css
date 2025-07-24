@@ -225,8 +225,8 @@ main{
 .trusted-badge{
     width: 50%;
     position: absolute;
-    left: 355px;
-    bottom: 450px;
+    right: -18%;
+    top: -19%;
     background:none;
 }
 
@@ -234,7 +234,6 @@ main{
 .content-title{
     font-size: 3.125rem;
     font-weight: 700;
-    margin-bottom: 20px;
 }
 
 
@@ -243,14 +242,20 @@ main{
     margin-left: 30px;
 }
 
+
+.description-list{
+    margin-top: 20px;
+}
+
 /* Media Query For Mobile devices */
 /* common */
 @media screen and (max-width:768px) {
-    /* navbar query */
+    
     .hidden {
         display: none;
     }
 
+    /* navbar query */
     .navbar{
         margin: 30px 15px 0 15px;
     }
@@ -306,6 +311,24 @@ main{
         grid-template-columns: repeat(2, 1fr);
         row-gap: 28px;
         margin-top: 28px;
+    }
+
+    /* Plants Lover Section */
+    .plants-lover{
+        flex-direction: column;
+        margin-top: 42px;
+        margin-left: 15px;
+        margin-right: 15px;
+        gap: 18px;
+    }
+
+    .content-title{
+        font-size: 1.5rem;
+    }
+
+    .description-list{
+        font-size: 0.875rem;
+        margin-top: 16px;
     }
 
 }
