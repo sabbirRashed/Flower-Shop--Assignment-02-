@@ -202,6 +202,47 @@ main{
     border: none;
 }
 
+
+/* plants lover section style */
+.plants-lover{
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    margin-top: 210px;
+}
+
+
+.plants-store-container{
+    position: relative;
+}
+
+
+.plants-store{
+    width: 100%;
+}
+
+
+.trusted-badge{
+    width: 50%;
+    position: absolute;
+    left: 355px;
+    bottom: 450px;
+    background:none;
+}
+
+
+.content-title{
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
+.content-description{
+    font-size: 1.375rem;
+    margin-left: 30px;
+}
+
 /* Media Query For Mobile devices */
 /* common */
 @media screen and (max-width:768px) {
