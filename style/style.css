@@ -33,6 +33,11 @@ body {
 }
 
 
+.flex-column{
+    flex-direction: column;
+}
+
+
 .dark-1 {
     color: #111111;
 }
@@ -53,7 +58,7 @@ body {
 }
 
 
-.orangr {
+.orange {
     color: #E95A08;
 }
 
@@ -247,6 +252,113 @@ main{
     margin-top: 20px;
 }
 
+
+/* Latest Deal Section */
+.latest-deal{
+    margin-top: 130px;
+}
+
+
+.latest-deal-title{
+    font-size: 3.125rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+
+.latest-deal-description{
+    max-width: 888px;
+    margin: 0 auto ;
+    font-size: 1.375rem;
+    text-align: center;
+}
+
+
+.card-layout-container{
+    height: 420px;
+    gap: 28px;
+    margin-top: 120px;
+}
+
+
+.child-container{
+    gap: 25px;
+    flex: 1;
+}
+
+
+.bloom-plant{
+    background-image: url(../assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(70%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    flex: 1;
+}
+
+
+.bloom-plant-offer,
+.ana-plant-offer
+{
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+.bloom-shop-link,
+.ana-shop-link
+{
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+
+.ana-plant{
+    background-image: url(../assets/deal-ana.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(70%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 14px;
+    flex: 1;
+}
+
+
+.zambo-plant{
+    background-image: url(../assets/deal-zabo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: brightness(70%);
+    justify-content: center;
+    align-items: center;
+    border-radius: 22px;
+    flex: 2;
+}
+
+
+.zambo-plant-offer{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+.zambo-shop-link{
+    font-size: 1.75rem ;
+    font-weight: 600 ;
+    color: #FFFFFF;
+}
+
+
+
 /* Media Query For Mobile devices */
 /* common */
 @media screen and (max-width:768px) {
@@ -320,6 +432,10 @@ main{
         margin-left: 15px;
         margin-right: 15px;
         gap: 18px;
+    }
+
+    .plants-store-container{
+        width: 100%;
     }
 
     .content-title{
