@@ -438,14 +438,8 @@ header {
 }
 
 
-.footer-social-policy{
-    
-}
-
-
 .social-policy-icon{
-   margin-right: 0px;
-   margin-left: 24px;
+  margin-right: 24px;
 }
 
 
@@ -590,6 +584,25 @@ header {
 
     .join-btn{
         width: 35%;
+    }
+
+    .footer{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left:15px ;
+        gap: 20px;
+    }
+
+    .footer-description{
+        font-size: 1rem;
+    }
+
+    .footer-links{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .social-policy-icon{
+        margin-left: 0px;
+        margin-right: 24px;
     }
 
 
