@@ -24,7 +24,7 @@
 
 /* Common Style */
 body {
-    background:rgb(247, 245, 245) ;
+    background: rgb(247, 245, 245);
 }
 
 
@@ -33,7 +33,7 @@ body {
 }
 
 
-.flex-column{
+.flex-column {
     flex-direction: column;
 }
 
@@ -104,60 +104,60 @@ header {
 
 
 /* banner style */
-.banner{
+.banner {
     margin-top: 120px;
     justify-content: space-between;
     align-items: end;
 }
 
 
-.flex-item{
+.flex-item {
     flex: 1;
 }
 
-.banner-content{
-    margin-top: 150px ;
+.banner-content {
+    margin-top: 150px;
 }
 
 
-.banner-title{
-    font-size: 4rem ;
+.banner-title {
+    font-size: 4rem;
     font-weight: 700;
 }
 
 
-.banner-description{
+.banner-description {
     font-size: 1.375rem;
     margin-top: 13px;
 }
 
 
-.banner-image>img{
+.banner-image>img {
     width: 100%;
     display: block;
 }
 
 /* main section start */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
 
 /* our plants style */
-.our-plants{
+.our-plants {
     margin-top: 120px;
 }
 
 
-.our-plants-title{
+.our-plants-title {
     font-size: 3.125rem;
     font-weight: 700;
     text-align: center;
 }
 
 
-.our-plants-description{
+.our-plants-description {
     max-width: 888px;
     margin: 0 auto;
     font-size: 1.375rem;
@@ -166,7 +166,7 @@ main{
 }
 
 
-.plants-card-container{
+.plants-card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 20px;
@@ -175,12 +175,12 @@ main{
 }
 
 
-.plants-card>img{
+.plants-card>img {
     width: 100%;
 }
 
 
-.plants-name{
+.plants-name {
     font-size: 1.375rem;
     font-weight: 500;
     text-align: center;
@@ -188,7 +188,7 @@ main{
 }
 
 
-.plants-price{
+.plants-price {
     font-size: 1.375rem;
     font-weight: 700;
     text-align: center;
@@ -196,7 +196,7 @@ main{
 }
 
 
-.plants-card-btn{
+.plants-card-btn {
     font-weight: 600;
     width: 100%;
     padding-top: 20px;
@@ -209,7 +209,7 @@ main{
 
 
 /* plants lover section style */
-.plants-lover{
+.plants-lover {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
@@ -217,49 +217,49 @@ main{
 }
 
 
-.plants-store-container{
+.plants-store-container {
     position: relative;
 }
 
 
-.plants-store{
+.plants-store {
     width: 100%;
 }
 
 
-.trusted-badge{
+.trusted-badge {
     width: 50%;
     position: absolute;
     right: -18%;
     top: -19%;
-    background:none;
+    background: none;
 }
 
 
-.content-title{
+.content-title {
     font-size: 3.125rem;
     font-weight: 700;
 }
 
 
-.content-description{
+.content-description {
     font-size: 1.375rem;
     margin-left: 30px;
 }
 
 
-.description-list{
+.description-list {
     margin-top: 20px;
 }
 
 
 /* Latest Deal Section */
-.latest-deal{
+.latest-deal {
     margin-top: 130px;
 }
 
 
-.latest-deal-title{
+.latest-deal-title {
     font-size: 3.125rem;
     font-weight: 700;
     text-align: center;
@@ -267,28 +267,28 @@ main{
 }
 
 
-.latest-deal-description{
+.latest-deal-description {
     max-width: 888px;
-    margin: 0 auto ;
+    margin: 0 auto;
     font-size: 1.375rem;
     text-align: center;
 }
 
 
-.card-layout-container{
+.card-layout-container {
     height: 420px;
     gap: 28px;
     margin-top: 120px;
 }
 
 
-.child-container{
+.child-container {
     gap: 25px;
     flex: 1;
 }
 
 
-.bloom-plant{
+.bloom-plant {
     background-image: url(../assets/deal-bloom.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -302,8 +302,7 @@ main{
 
 
 .bloom-plant-offer,
-.ana-plant-offer
-{
+.ana-plant-offer {
     font-size: 1.25rem;
     font-weight: 700;
     color: #FFFFFF;
@@ -311,14 +310,13 @@ main{
 
 
 .bloom-shop-link,
-.ana-shop-link
-{
+.ana-shop-link {
     font-weight: 600;
     color: #FFFFFF;
 }
 
 
-.ana-plant{
+.ana-plant {
     background-image: url(../assets/deal-ana.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -331,7 +329,7 @@ main{
 }
 
 
-.zambo-plant{
+.zambo-plant {
     background-image: url(../assets/deal-zabo.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -344,16 +342,16 @@ main{
 }
 
 
-.zambo-plant-offer{
+.zambo-plant-offer {
     font-size: 2.5rem;
     font-weight: 700;
     color: #FFFFFF;
 }
 
 
-.zambo-shop-link{
-    font-size: 1.75rem ;
-    font-weight: 600 ;
+.zambo-shop-link {
+    font-size: 1.75rem;
+    font-weight: 600;
     color: #FFFFFF;
 }
 
@@ -362,71 +360,71 @@ main{
 /* Media Query For Mobile devices */
 /* common */
 @media screen and (max-width:768px) {
-    
+
     .hidden {
         display: none;
     }
 
     /* navbar query */
-    .navbar{
+    .navbar {
         margin: 30px 15px 0 15px;
     }
-    
-    .logo{
-        width:20%
+
+    .logo {
+        width: 20%
     }
 
     /* banner query */
-    .banner{
+    .banner {
         flex-direction: column-reverse;
-        margin-top:30px ;
+        margin-top: 30px;
     }
 
-    .banner-content{
+    .banner-content {
         margin-top: 30px;
         margin-left: 15px;
         margin-right: 15px;
     }
 
-    .banner-title{
+    .banner-title {
         font-size: 1.5rem;
     }
 
-    .banner-description{
+    .banner-description {
         font-size: 0.875rem;
     }
 
     /* our plants section */
-    .our-plants{
+    .our-plants {
         margin: 65px 15px 0px 15px;
     }
 
-    .our-plants-title{
+    .our-plants-title {
         font-size: 1.5rem;
     }
 
-    .our-plants-description{
+    .our-plants-description {
         max-width: 336px;
         font-size: 0.875rem;
     }
 
-    .plants-name{
+    .plants-name {
         font-size: 1rem;
     }
-    
-    .plants-price{
+
+    .plants-price {
         font-size: 1rem;
         margin-top: 10px;
     }
 
-    .plants-card-container{
+    .plants-card-container {
         grid-template-columns: repeat(2, 1fr);
         row-gap: 28px;
         margin-top: 28px;
     }
 
     /* Plants Lover Section */
-    .plants-lover{
+    .plants-lover {
         flex-direction: column;
         margin-top: 42px;
         margin-left: 15px;
@@ -434,17 +432,56 @@ main{
         gap: 18px;
     }
 
-    .plants-store-container{
+    .plants-store-container {
         width: 100%;
     }
 
-    .content-title{
+    .content-title {
         font-size: 1.5rem;
     }
 
-    .description-list{
+    .description-list {
         font-size: 0.875rem;
         margin-top: 16px;
     }
 
+
+    /* Latest Deal Section */
+    .latest-deal-title {
+        font-size: 1.5rem;
+        margin-top: 140px;
+    }
+
+    .latest-deal-description {
+        max-width: 336px;
+        font-size: 0.875rem;
+    }
+
+    .card-layout-container {
+        flex-direction: column;
+        height: 581px;
+        margin-top: 50px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .child-container {
+        flex: 2;
+    }
+
+    .ana-plant{
+        border-radius: 0;
+    }
+
+    .zambo-plant {
+        flex: 1;
+    }
+
+    .zambo-plant-offer{
+        font-size: 1.25rem;
+    }
+
+    .zambo-shop-link{
+        font-size: 1rem;
+    }
 }
