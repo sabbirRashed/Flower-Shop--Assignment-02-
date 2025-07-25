@@ -377,12 +377,11 @@ header {
     font-weight: 700;
     text-align: center;
     color: #FFFFFF;
-    padding: 0 122px 0;
 }
 
 
 .join-form {
-    width: 100%;
+    width: 70%;
     margin-top: 23px;
 }
 
@@ -535,4 +534,21 @@ header {
     .zambo-shop-link {
         font-size: 1rem;
     }
+
+    /* Join Section */
+
+    .join-title{
+        font-size: 1.25rem;
+        padding: 0;
+    }
+
+    .email-input{
+        width: 65%;
+    }
+
+    .join-btn{
+        width: 35%;
+    }
+
+
 }
